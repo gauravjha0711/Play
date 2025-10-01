@@ -5,3 +5,5 @@ const registerUser = asyncHandler ( async (req,res) => {
         message: "User registered successfully"
     })
 })
+
+export default {registerUser};
